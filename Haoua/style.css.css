@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Poppins",sans-serif;
+}
+
+body{
+    background:#f4fbff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    padding:20px;
+}
+
+.carte{
+    width:650px;
+    background:white;
+    padding:50px;
+    border-radius:20px;
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+    border-top:6px solid #19AEEF;
+}
+
+.badge{
+    background:#19AEEF;
+    color:white;
+    padding:8px 18px;
+    border-radius:30px;
+    font-size:14px;
+}
+
+h1{
+    margin-top:25px;
+    color:#19AEEF;
+    font-size:42px;
+}
+
+h2{
+    margin-top:10px;
+    color:#222;
+    font-size:30px;
+}
+
+.ligne{
+    width:80px;
+    height:5px;
+    background:#19AEEF;
+    border-radius:20px;
+    margin:25px 0;
+}
+
+p{
+    color:#555;
+    line-height:1.8;
+    text-align:justify;
+}
+
+.infos{
+    display:flex;
+    justify-content:space-between;
+    margin:35px 0;
+    gap:20px;
+}
+
+.infos div{
+    flex:1;
+    background:#f7fcff;
+    border-left:4px solid #19AEEF;
+    padding:20px;
+    border-radius:10px;
+}
+
+.infos h3{
+    color:#19AEEF;
+    margin-bottom:10px;
+}
+
+.btn{
+    display:inline-block;
+    padding:14px 30px;
+    background:#19AEEF;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#0d8fd0;
+    transform:translateY(-3px);
+}
+
+@media(max-width:700px){
+
+.carte{
+    width:100%;
+    padding:30px;
+}
+
+.infos{
+    flex-direction:column;
+}
+
+h1{
+    font-size:32px;
+}
+
+h2{
+    font-size:24px;
+}
+
+}
