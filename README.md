@@ -1,86 +1,74 @@
-# Saare Tech - Formation Développement Web/Mobile
+## SAARETECH — Projet de Présentation d'Équipe
 
-Bienvenue sur le site officiel de **Saare Tech**, une structure de formation innovante spécialisée dans le développement web et mobile.
+Ce dépôt regroupe le projet collaboratif de présentation des membres de l'équipe **SAARETECH**, réalisé dans le cadre de notre formation. Chaque membre dispose de sa propre page de présentation, développée sur sa propre branche Git.
 
-## 📋 À propos
+## À propos du projet
 
-Saare Tech est une plateforme de formation intensive de 2 mois conçue pour préparer les stagiaires aux métiers du développement web et mobile. Notre programme combine la théorie et la pratique pour développer des compétences solides et directement applicables.
+L'objectif est de présenter chaque membre du groupe (parcours, compétences, réalisations) au sein d'une structure commune, tout en s'exerçant à la collaboration via **Git** et **GitHub** (branches, commits, pull requests).
 
-## 🎯 Objectifs de la formation
-
-- Maîtriser les fondamentaux du développement web
-- Apprendre le développement d'applications mobiles
-- Développer une logique de programmation solide
-- Créer des interfaces utilisateur modernes et responsives
-- Acquérir les bonnes pratiques du développement professionnel
-- Préparer à l'insertion professionnelle
-
-## 📚 Structure de la formation
-
-### 1. Formation pratique
-Les stagiaires apprennent à travers des projets concrets et des exercices adaptés à leurs besoins réels du marché.
-
-### 2. Encadrement professionnel
-Une équipe pédagogique expérimentée accompagne chaque stagiaire pour renforcer ses compétences et sa confiance.
-
-### 3. Compétences modernes
-La formation couvre :
-- Développement web (HTML, CSS, JavaScript)
-- Développement mobile
-- Création d'applications interactives
-- Logique de programmation avancée
-
-## ⏱️ Durée
-
-La formation dure **2 mois** intensifs, permettant un apprentissage rapide et efficace avec mise en pratique immédiate.
-
-## 👥 Nos stagiaires
-
-Le programme accueille des développeurs en formation qui travaillent sur des projets réels et participent à des défis de programmation pour consolider leurs apprentissages.
-
-## 📁 Structure du projet
+## Structure du dépôt
 
 ```
-Super-Project/
-├── index.html           # Page d'accueil
-├── yaya.html           # Page de présentation stagiaire
-├── README.md           # Documentation du projet
-├── assets/
-│   └── logo.jpg        # Logo Saare Tech
-├── css/                # Fichiers de style personnalisés
-└── js/                 # Fichiers JavaScript personnalisés
+super-projet/
+├── README.md
+├── etienne.html        # Page de présentation d'Etienne
+├── style.css            # Feuille de style associée
+└── js/
+    └── script.js         # Script (animations, formulaire de contact)
 ```
 
-## 🚀 Démarrage rapide
+> Chaque membre ajoute ses propres fichiers (`nom.html`, `style.css`, `js/`) sur sa branche personnelle.
 
-1. Ouvrez le fichier `index.html` dans votre navigateur
-2. Explorez les sections d'information sur la formation
-3. Consultez les pages des stagiaires pour connaître leurs profils
+## Ma contribution — Etienne Badango
 
-## 💻 Technologies utilisées
+- **Branche :** `stark`
+- **Fichier principal :** `etienne.html`
+- **Contenu :** présentation personnelle (parcours ENSPM, compétences, projets réalisés, formulaire de contact)
 
-- **HTML5** : Structure sémantique
-- **CSS3** : Design responsive et moderne
-- **JavaScript** : Interactivité et fonctionnalités dynamiques
-- **Design mobile-first** : Compatible tous les appareils
+## Technologies utilisées
 
-## 🎨 Palette de couleurs
+- HTML5
+- CSS3 (design personnalisé, thème indigo/or)
+- JavaScript (vanilla, sans framework)
 
-- **Couleur primaire** : Bleu turquoise (Saare Tech)
-- **Accent** : Nuances de bleu foncé
-- **Fond** : Blanc et gris clair
+## Comment visualiser ma page
 
-## 📞 Contact & Informations
+1. Cloner le dépôt :
+   ```bash
+   git clone https://github.com/nom-organisation/super-projet.git
+   ```
+2. Se positionner sur la branche `stark` :
+   ```bash
+   git checkout stark
+   ```
+3. Ouvrir `etienne.html` dans un navigateur (double-clic ou via une extension type "Live Server").
 
-Pour plus d'informations sur la formation :
-- Site : Saare Tech
-- Formation : Développement Web/Mobile
-- Durée : 2 mois
+## Workflow Git utilisé
 
-## 📝 Licence
+```bash
+# Créer et basculer sur sa branche personnelle
+git checkout -b stark
 
-Ce projet est utilisé à titre éducatif par Saare Tech.
+# Ajouter ses fichiers
+git add etienne.html style.css js/script.js
+
+# Valider les changements
+git commit -m "Ajout de ma page de presentation"
+
+# Envoyer la branche sur GitHub
+git push -u origin stark
+```
+
+Une fois la branche poussée, une **Pull Request** peut être ouverte pour proposer la fusion vers la branche principale (`main`).
+
+## Équipe SAARETECH
+
+| Membre | Branche | Statut |
+|---|---|---|
+| Etienne Badango | `stark` | ✅ Terminé |
+| *(à compléter par les autres membres)* | | |
 
 ---
 
-**Saare Tech © 2026 - Formation Développement Web/Mobile**
+*Projet réalisé dans le cadre de la formation SAARETECH.*uper-Project
+Hello people
