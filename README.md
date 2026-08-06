@@ -1,4 +1,4 @@
-# S# SAARETECH — Projet de Présentation d'Équipe
+## SAARETECH — Projet de Présentation d'Équipe
 
 Ce dépôt regroupe le projet collaboratif de présentation des membres de l'équipe **SAARETECH**, réalisé dans le cadre de notre formation. Chaque membre dispose de sa propre page de présentation, développée sur sa propre branche Git.
 
@@ -25,7 +25,7 @@ super-projet/
 - **Fichier principal :** `etienne.html`
 - **Contenu :** présentation personnelle (parcours ENSPM, compétences, projets réalisés, formulaire de contact)
 
-### Technologies utilisées
+## Technologies utilisées
 
 - HTML5
 - CSS3 (design personnalisé, thème indigo/or)
